@@ -1,9 +1,24 @@
 body {
-    background-color: #113A82; 
+    background-color: #062863;
+    margin: 0;
+    padding: 0;
 }
 
 main {
     padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+}
+
+.background-icons {
+    background-image: url(./images/icon-one.png), url(./images/icon-two.png), url(./images/icon-three.png), url(./images/icon-four.png);
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: left -1% top -15%, right -7.5% top -1%, left -5% bottom -10%, right -5% bottom -5%;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
 }
 
 .logo img {
@@ -28,7 +43,7 @@ main {
     font-size: 24px;
     margin-bottom: 0;
     text-align: center;
-    color: #113A82;
+    color: #083E9E;
 }
 
 .sign-in-form header p {
@@ -97,29 +112,30 @@ main {
 
 .sign-in-form form button {
     width: 100%;
-    padding: 16px 40px;
-    background-color: #144499 ;
-    border: 1px solid #144499;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    background-color: #083e9e ;
+    border: 1px solid #083e9e;
     color: #fff;
     border-top-left-radius: .75rem;
     border-top-right-radius: .75rem;
     border-bottom-right-radius: .75rem;
-    font-size: 18px;
+    font-size: 15px;
+    font-weight: 700;
     cursor: pointer;
 }
 
 .sign-in-form form button:hover {
-    background-color: #113A82;
-    border: 1px solid #113A82;
+    background-color: #062B6F;
+    border: 1px solid #062B6F;
 }
 
 .login-link a {
     display: block ;
     text-align: center;
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
+    margin-top: 2rem;
     text-decoration: none;
     color: #fff;
-    font-family: Arial, sans-serif;
-    font-size: 1rem;
+    font-family: Karla, sans-serif;
+    font-size: .875rem;
 }
